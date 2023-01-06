@@ -1,2 +1,2 @@
-# dead-collection
-E-commerce website using Django and Vue
+# Dead Collection
+E-commerce website using Django REST Framework, VueJS and Bulma
