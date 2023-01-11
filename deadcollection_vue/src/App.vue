@@ -45,7 +45,7 @@
 
               <template v-else>
                 <router-link to="/login" class="button is-light">Login</router-link>
-              </template
+              </template>
   
               <router-link to="/cart" class="button is-success">
                 <span class="icon"><i class="fa-solid fa-cart-shopping"></i></span>

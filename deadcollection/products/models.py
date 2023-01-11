@@ -41,17 +41,17 @@ class Product(models.Model):
 
     def get_image(self):
         if self.image:
-            return 'https://8000-sjecollins-deadcollecti-hqlw5hgkfnf.ws-eu81.gitpod.io' + self.image.url
+            return 'https://8000-sjecollins-deadcollecti-hqlw5hgkfnf.ws-eu82.gitpod.io' + self.image.url
         return ''
 
     def get_thumbnail(self):
         if self.thumbnail:
-            return 'https://8000-sjecollins-deadcollecti-hqlw5hgkfnf.ws-eu81.gitpod.io' + self.thumbnail.url
+            return 'https://8000-sjecollins-deadcollecti-hqlw5hgkfnf.ws-eu82.gitpod.io' + self.thumbnail.url
         else:
             if self.image:
                 self.thumbnail = self.make_thumbnail(self.image)
                 self.save()
-                return 'https://8000-sjecollins-deadcollecti-hqlw5hgkfnf.ws-eu81.gitpod.io' + self.thumbnail.url
+                return 'https://8000-sjecollins-deadcollecti-hqlw5hgkfnf.ws-eu82.gitpod.io' + self.thumbnail.url
             else:
                 return ''
 

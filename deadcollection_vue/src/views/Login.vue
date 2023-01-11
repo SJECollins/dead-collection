@@ -52,7 +52,7 @@ export default {
     },
     methods: {
         async submitForm() {
-            axios.default.headers.common['Authorization'] = ''
+            axios.defaults.headers.common['Authorization'] = ''
 
             localStorage.removeItem('token')
 

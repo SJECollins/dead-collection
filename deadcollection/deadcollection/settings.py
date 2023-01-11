@@ -48,11 +48,11 @@ INSTALLED_APPS = [
     'products',
 ]
 
-ALLOWED_HOSTS=['http://localhost:8000', 'localhost', 'https://8000-sjecollins-deadcollecti-hqlw5hgkfnf.ws-eu81.gitpod.io']
+ALLOWED_HOSTS=['http://localhost:8000', 'localhost', 'https://8000-sjecollins-deadcollecti-hqlw5hgkfnf.ws-eu82.gitpod.io']
 
 # CORS_ORIGIN_ALLOW_ALL = False
 CORS_ALLOWED_ORIGINS = (
-       'https://8080-sjecollins-deadcollecti-hqlw5hgkfnf.ws-eu81.gitpod.io',
+       'https://8080-sjecollins-deadcollecti-hqlw5hgkfnf.ws-eu82.gitpod.io',
 )
 
 MIDDLEWARE = [
